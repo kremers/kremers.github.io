@@ -1,28 +1,9 @@
 apiVersion: v1
 entries:
-  charts-vmware-exporter:
-  - apiVersion: v1
-    appVersion: 0.9.0
-    created: "2019-05-21T11:32:21.080381+02:00"
-    description: VMware vCenter Exporter for Prometheus Helm chart
-    digest: 1f3da2f960d4956c070e76459149b9f52863c18b85ba610ebe2ab75dd2249be3
-    engine: gotpl
-    home: https://github.com/pryorda/vmware_exporter
-    maintainers:
-    - email: info@martinkremers.de
-      name: kremers
-    - email: daniel@pryorda.net
-      name: pryorda
-    name: charts-vmware-exporter
-    sources:
-    - https://github.com/pryorda/vmware_exporter
-    urls:
-    - charts-vmware-exporter-1.0.1.tgz
-    version: 1.0.1
   vmware-exporter:
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2019-05-21T11:32:21.080917+02:00"
+    created: "2019-06-03T13:55:20.862138+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4e359b89f2091a8306fb6a60f3a9b9bb6e7ea48ded10db55b9e3f52d3472687d
     engine: gotpl
@@ -38,4 +19,4 @@ entries:
     urls:
     - vmware-exporter-1.0.1.tgz
     version: 1.0.1
-generated: "2019-05-21T11:32:21.079426+02:00"
+generated: "2019-06-03T13:55:20.857427+02:00"
