@@ -3,7 +3,25 @@ entries:
   vmware-exporter:
   - apiVersion: v1
     appVersion: 0.13.2
-    created: "2021-01-31T14:52:05.187158+01:00"
+    created: "2021-04-12T10:45:26.856021+02:00"
+    description: VMware vCenter Exporter for Prometheus Helm chart
+    digest: baf8fcd920b007088fb2381c79ba6adeb918a7ee23acd29e8a07dbdcf10c8c1c
+    engine: gotpl
+    home: https://github.com/pryorda/vmware_exporter
+    maintainers:
+    - email: info@martinkremers.de
+      name: kremers
+    - email: daniel@pryorda.net
+      name: pryorda
+    name: vmware-exporter
+    sources:
+    - https://github.com/pryorda/vmware_exporter
+    urls:
+    - vmware-exporter-2.2.0.tgz
+    version: 2.2.0
+  - apiVersion: v1
+    appVersion: 0.13.2
+    created: "2021-04-12T10:45:26.855481+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4a3f9e0d411aed58de339057772d9cc3c14415d3952145e6dfe92ece0257b5b2
     engine: gotpl
@@ -21,7 +39,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 0.13.0
-    created: "2021-01-31T14:52:05.185991+01:00"
+    created: "2021-04-12T10:45:26.854124+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4515eb3351052ff26e76e1de9d58f615d3675fc524b6027bae97dbe1736738e2
     engine: gotpl
@@ -39,7 +57,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 0.10.4
-    created: "2021-01-31T14:52:05.184646+01:00"
+    created: "2021-04-12T10:45:26.852817+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: ce67a0e38127508cc33c47fd4165e634241fb1e74012fcfe0ca43ed5132612e4
     engine: gotpl
@@ -57,7 +75,7 @@ entries:
     version: 1.0.4
   - apiVersion: v1
     appVersion: 0.9.7
-    created: "2021-01-31T14:52:05.183008+01:00"
+    created: "2021-04-12T10:45:26.851487+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: a485c57ce5afa291c3ec9c45e99efc87413d2513e0343729c3a3545f72a7fe51
     engine: gotpl
@@ -75,7 +93,7 @@ entries:
     version: 1.0.3
   - apiVersion: v1
     appVersion: 0.9.1
-    created: "2021-01-31T14:52:05.181325+01:00"
+    created: "2021-04-12T10:45:26.84986+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 856cf99156bfb687eecba2a99334ff834c26f058fdc9c5021c3aeeba90c365c9
     engine: gotpl
@@ -93,7 +111,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2021-01-31T14:52:05.179885+01:00"
+    created: "2021-04-12T10:45:26.848167+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4e359b89f2091a8306fb6a60f3a9b9bb6e7ea48ded10db55b9e3f52d3472687d
     engine: gotpl
@@ -109,4 +127,4 @@ entries:
     urls:
     - vmware-exporter-1.0.1.tgz
     version: 1.0.1
-generated: "2021-01-31T14:52:05.177946+01:00"
+generated: "2021-04-12T10:45:26.845867+02:00"
