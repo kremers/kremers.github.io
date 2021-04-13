@@ -1,12 +1,45 @@
 apiVersion: v1
 entries:
+  postgresql-ha:
+  - annotations:
+      category: Database
+    apiVersion: v2
+    appVersion: 11.11.0
+    created: "2021-04-13T15:09:02.314765+02:00"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 1.x.x
+    description: Chart for PostgreSQL with HA architecture (using Replication Manager (repmgr) and Pgpool).
+    digest: ef2154b271799dc6445febb414e21e54a7d80ec27da2ab25b890434e20564088
+    home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql-ha
+    icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
+    keywords:
+    - postgresql
+    - repmgr
+    - pgpool
+    - postgres
+    - database
+    - sql
+    - replication
+    - cluster
+    - high availability
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: postgresql-ha
+    sources:
+    - https://github.com/bitnami/bitnami-docker-postgresql
+    - https://www.postgresql.org/
+    urls:
+    - postgresql-ha-6.8.3.tgz
+    version: 6.8.3
   vmware-exporter:
   - apiVersion: v1
     appVersion: 0.13.2
-    created: "2021-04-12T10:45:26.856021+02:00"
+    created: "2021-04-13T15:09:02.327526+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: baf8fcd920b007088fb2381c79ba6adeb918a7ee23acd29e8a07dbdcf10c8c1c
-    engine: gotpl
     home: https://github.com/pryorda/vmware_exporter
     maintainers:
     - email: info@martinkremers.de
@@ -21,10 +54,9 @@ entries:
     version: 2.2.0
   - apiVersion: v1
     appVersion: 0.13.2
-    created: "2021-04-12T10:45:26.855481+02:00"
+    created: "2021-04-13T15:09:02.326046+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4a3f9e0d411aed58de339057772d9cc3c14415d3952145e6dfe92ece0257b5b2
-    engine: gotpl
     home: https://github.com/pryorda/vmware_exporter
     maintainers:
     - email: info@martinkremers.de
@@ -39,10 +71,9 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 0.13.0
-    created: "2021-04-12T10:45:26.854124+02:00"
+    created: "2021-04-13T15:09:02.323399+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4515eb3351052ff26e76e1de9d58f615d3675fc524b6027bae97dbe1736738e2
-    engine: gotpl
     home: https://github.com/pryorda/vmware_exporter
     maintainers:
     - email: info@martinkremers.de
@@ -57,10 +88,9 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 0.10.4
-    created: "2021-04-12T10:45:26.852817+02:00"
+    created: "2021-04-13T15:09:02.321862+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: ce67a0e38127508cc33c47fd4165e634241fb1e74012fcfe0ca43ed5132612e4
-    engine: gotpl
     home: https://github.com/pryorda/vmware_exporter
     maintainers:
     - email: info@martinkremers.de
@@ -75,10 +105,9 @@ entries:
     version: 1.0.4
   - apiVersion: v1
     appVersion: 0.9.7
-    created: "2021-04-12T10:45:26.851487+02:00"
+    created: "2021-04-13T15:09:02.32027+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: a485c57ce5afa291c3ec9c45e99efc87413d2513e0343729c3a3545f72a7fe51
-    engine: gotpl
     home: https://github.com/pryorda/vmware_exporter
     maintainers:
     - email: info@martinkremers.de
@@ -93,10 +122,9 @@ entries:
     version: 1.0.3
   - apiVersion: v1
     appVersion: 0.9.1
-    created: "2021-04-12T10:45:26.84986+02:00"
+    created: "2021-04-13T15:09:02.318653+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 856cf99156bfb687eecba2a99334ff834c26f058fdc9c5021c3aeeba90c365c9
-    engine: gotpl
     home: https://github.com/pryorda/vmware_exporter
     maintainers:
     - email: info@martinkremers.de
@@ -111,10 +139,9 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2021-04-12T10:45:26.848167+02:00"
+    created: "2021-04-13T15:09:02.316464+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4e359b89f2091a8306fb6a60f3a9b9bb6e7ea48ded10db55b9e3f52d3472687d
-    engine: gotpl
     home: https://github.com/pryorda/vmware_exporter
     maintainers:
     - email: info@martinkremers.de
@@ -127,4 +154,4 @@ entries:
     urls:
     - vmware-exporter-1.0.1.tgz
     version: 1.0.1
-generated: "2021-04-12T10:45:26.845867+02:00"
+generated: "2021-04-13T15:09:02.308528+02:00"
