@@ -5,13 +5,13 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 11.12.0
-    created: "2021-05-17T13:49:17.358226+02:00"
+    created: "2021-05-17T17:26:13.41828+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
       version: 1.x.x
     description: Chart for PostgreSQL with HA architecture (using Replication Manager (repmgr) and Pgpool).
-    digest: 39880e837479f03174973b1c303afa369fb63dfbe15bc49f17516f51e6c0d175
+    digest: e93d8151d1222ba9fe37a9706b975e0531a3e046c9e21104154d2cbfb1e30853
     home: https://github.com/bitnami/charts/tree/master/bitnami/postgresql-ha
     icon: https://bitnami.com/assets/stacks/postgresql/img/postgresql-stack-220x234.png
     keywords:
@@ -38,7 +38,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 11.11.0
-    created: "2021-05-17T13:49:17.354813+02:00"
+    created: "2021-05-17T17:26:13.414213+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -71,7 +71,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 11.11.0
-    created: "2021-05-17T13:49:17.34587+02:00"
+    created: "2021-05-17T17:26:13.405085+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -103,7 +103,7 @@ entries:
   vmware-exporter:
   - apiVersion: v1
     appVersion: 0.13.2
-    created: "2021-05-17T13:49:17.370942+02:00"
+    created: "2021-05-17T17:26:13.431195+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: baf8fcd920b007088fb2381c79ba6adeb918a7ee23acd29e8a07dbdcf10c8c1c
     home: https://github.com/pryorda/vmware_exporter
@@ -120,7 +120,7 @@ entries:
     version: 2.2.0
   - apiVersion: v1
     appVersion: 0.13.2
-    created: "2021-05-17T13:49:17.369431+02:00"
+    created: "2021-05-17T17:26:13.42954+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4a3f9e0d411aed58de339057772d9cc3c14415d3952145e6dfe92ece0257b5b2
     home: https://github.com/pryorda/vmware_exporter
@@ -137,7 +137,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 0.13.0
-    created: "2021-05-17T13:49:17.36815+02:00"
+    created: "2021-05-17T17:26:13.427118+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4515eb3351052ff26e76e1de9d58f615d3675fc524b6027bae97dbe1736738e2
     home: https://github.com/pryorda/vmware_exporter
@@ -154,7 +154,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 0.10.4
-    created: "2021-05-17T13:49:17.365857+02:00"
+    created: "2021-05-17T17:26:13.425509+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: ce67a0e38127508cc33c47fd4165e634241fb1e74012fcfe0ca43ed5132612e4
     home: https://github.com/pryorda/vmware_exporter
@@ -171,7 +171,7 @@ entries:
     version: 1.0.4
   - apiVersion: v1
     appVersion: 0.9.7
-    created: "2021-05-17T13:49:17.363202+02:00"
+    created: "2021-05-17T17:26:13.423576+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: a485c57ce5afa291c3ec9c45e99efc87413d2513e0343729c3a3545f72a7fe51
     home: https://github.com/pryorda/vmware_exporter
@@ -188,7 +188,7 @@ entries:
     version: 1.0.3
   - apiVersion: v1
     appVersion: 0.9.1
-    created: "2021-05-17T13:49:17.361524+02:00"
+    created: "2021-05-17T17:26:13.421501+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 856cf99156bfb687eecba2a99334ff834c26f058fdc9c5021c3aeeba90c365c9
     home: https://github.com/pryorda/vmware_exporter
@@ -205,7 +205,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2021-05-17T13:49:17.359856+02:00"
+    created: "2021-05-17T17:26:13.419712+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4e359b89f2091a8306fb6a60f3a9b9bb6e7ea48ded10db55b9e3f52d3472687d
     home: https://github.com/pryorda/vmware_exporter
@@ -220,4 +220,4 @@ entries:
     urls:
     - vmware-exporter-1.0.1.tgz
     version: 1.0.1
-generated: "2021-05-17T13:49:17.334305+02:00"
+generated: "2021-05-17T17:26:13.393339+02:00"
