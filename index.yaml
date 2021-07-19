@@ -5,7 +5,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 11.12.0
-    created: "2021-05-17T17:26:13.41828+02:00"
+    created: "2021-07-19T09:35:31.109754+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -38,7 +38,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 11.11.0
-    created: "2021-05-17T17:26:13.414213+02:00"
+    created: "2021-07-19T09:35:31.103663+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -71,7 +71,7 @@ entries:
       category: Database
     apiVersion: v2
     appVersion: 11.11.0
-    created: "2021-05-17T17:26:13.405085+02:00"
+    created: "2021-07-19T09:35:31.085225+02:00"
     dependencies:
     - name: common
       repository: https://charts.bitnami.com/bitnami
@@ -103,9 +103,9 @@ entries:
   vmware-exporter:
   - apiVersion: v1
     appVersion: 0.13.2
-    created: "2021-05-17T17:26:13.431195+02:00"
+    created: "2021-07-19T09:35:31.12558+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
-    digest: baf8fcd920b007088fb2381c79ba6adeb918a7ee23acd29e8a07dbdcf10c8c1c
+    digest: 660742911947c1614999f83b30b3e9cf6a74db8700623b51db0f9cfce9c0460d
     home: https://github.com/pryorda/vmware_exporter
     maintainers:
     - email: info@martinkremers.de
@@ -120,7 +120,7 @@ entries:
     version: 2.2.0
   - apiVersion: v1
     appVersion: 0.13.2
-    created: "2021-05-17T17:26:13.42954+02:00"
+    created: "2021-07-19T09:35:31.123994+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4a3f9e0d411aed58de339057772d9cc3c14415d3952145e6dfe92ece0257b5b2
     home: https://github.com/pryorda/vmware_exporter
@@ -137,7 +137,7 @@ entries:
     version: 2.1.0
   - apiVersion: v1
     appVersion: 0.13.0
-    created: "2021-05-17T17:26:13.427118+02:00"
+    created: "2021-07-19T09:35:31.122417+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4515eb3351052ff26e76e1de9d58f615d3675fc524b6027bae97dbe1736738e2
     home: https://github.com/pryorda/vmware_exporter
@@ -154,7 +154,7 @@ entries:
     version: 2.0.0
   - apiVersion: v1
     appVersion: 0.10.4
-    created: "2021-05-17T17:26:13.425509+02:00"
+    created: "2021-07-19T09:35:31.120416+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: ce67a0e38127508cc33c47fd4165e634241fb1e74012fcfe0ca43ed5132612e4
     home: https://github.com/pryorda/vmware_exporter
@@ -171,7 +171,7 @@ entries:
     version: 1.0.4
   - apiVersion: v1
     appVersion: 0.9.7
-    created: "2021-05-17T17:26:13.423576+02:00"
+    created: "2021-07-19T09:35:31.11851+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: a485c57ce5afa291c3ec9c45e99efc87413d2513e0343729c3a3545f72a7fe51
     home: https://github.com/pryorda/vmware_exporter
@@ -188,7 +188,7 @@ entries:
     version: 1.0.3
   - apiVersion: v1
     appVersion: 0.9.1
-    created: "2021-05-17T17:26:13.421501+02:00"
+    created: "2021-07-19T09:35:31.115972+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 856cf99156bfb687eecba2a99334ff834c26f058fdc9c5021c3aeeba90c365c9
     home: https://github.com/pryorda/vmware_exporter
@@ -205,7 +205,7 @@ entries:
     version: 1.0.2
   - apiVersion: v1
     appVersion: 0.9.0
-    created: "2021-05-17T17:26:13.419712+02:00"
+    created: "2021-07-19T09:35:31.113367+02:00"
     description: VMware vCenter Exporter for Prometheus Helm chart
     digest: 4e359b89f2091a8306fb6a60f3a9b9bb6e7ea48ded10db55b9e3f52d3472687d
     home: https://github.com/pryorda/vmware_exporter
@@ -220,4 +220,4 @@ entries:
     urls:
     - vmware-exporter-1.0.1.tgz
     version: 1.0.1
-generated: "2021-05-17T17:26:13.393339+02:00"
+generated: "2021-07-19T09:35:31.077887+02:00"
